@@ -1,0 +1,33 @@
+# --- Archivos Compilados y Ejecutables ---
+*.exe
+*.o
+*.obj
+*.dll
+
+# --- Carpetas de Construcción (CMake / CLion) ---
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+bin/
+obj/
+
+# --- Configuraciones de IDEs (No subir esto) ---
+.idea/
+.vscode/
+.vs/
+*.swp
+*.user
+
+# --- Archivos de Base de Datos (Generados por el programa) ---
+# Ignoramos estos para no ensuciar el repo con datos de prueba
+*.dat
+temp.dat
+
+# --- Reportes Generados ---
+retiros.txt
+
+# --- Excepciones (Archivos .txt que SÍ queremos subir) ---
+!CMakeLists.txt
